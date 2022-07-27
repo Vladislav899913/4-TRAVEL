@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  margin: 0;
+}
+
+body {
+}
+
+.wrapper {
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+.header {
+  background: url(/images/intro/intro_bg.jpg) center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 240px;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  width: 458px;
+  height: 20px;
+  font-size: 21px;
+}
+
+.nav_link {
+  font-family: Lato;
+  font-weight: 300;
+  color: #232323;
+  transition: color 0.3s;
+}
+
+.nav_link:hover {
+  color: #8b8b8b;
+  text-decoration: underline;
+}
+
+.nav_link-active {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.button {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 21px;
+  letter-spacing: -0.53px;
+  width: 256px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  background-color: #232323;
+  color: #e9e7e7;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  border: 3px solid #232323;
+  cursor: pointer;
+  background-color: #e9e7e7;
+  color: #232323;
+}
+
+.nav_button {
+  background-color: transparent;
+  border: 3px solid #232323;
+  color: #232323;
+  width: 218px;
+}
+
+.nav_button:hover {
+  background-color: #232323;
+  color: #e9e7e7;
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    height: 200px;
+  }
+  .nav_links {
+    width: 358px;
+  }
+  .button {
+    width: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    height: 150px;
+  }
+  .nav_links {
+    width: 300px;
+  }
+  .nav_links {
+    font-size: 19px;
+  }
+  .button {
+    font-size: 19px;
+  }
+}
+@media (max-width: 425px) {
+  .nav_links {
+    display: none;
+  }
+}
