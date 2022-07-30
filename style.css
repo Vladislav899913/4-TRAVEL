@@ -390,3 +390,301 @@ body {
 }
 @media (max-width: 425px) {
 }
+
+/* Places */
+.places {
+  background: url(/images/places/places_bg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 911px;
+  padding-top: 188px;
+  /* padding-bottom: 398px; */
+}
+.places_inner {
+  max-width: 777px;
+  margin: 0 auto;
+  text-align: center;
+}
+.places_img {
+}
+.places_title {
+  margin: 62px 0;
+  font-size: 98px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -2.45px;
+}
+.underline {
+  text-decoration: underline;
+  font-style: italic;
+}
+.places_subtitle {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.63px;
+}
+
+@media (max-width: 1024px) {
+  /* Places */
+  .places {
+    background: url(/images/places/places_bg.jpg) center no-repeat;
+    min-height: auto;
+    padding: 60px 0;
+  }
+  .places_title {
+    margin: 50px 0;
+    font-size: 65px;
+  }
+  .places_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  /* Places */
+  .places_title {
+    margin: 30px 0;
+    font-size: 50px;
+  }
+  .places_subtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  /* Places */
+  .places_title {
+    margin: 30px 0;
+    font-size: 40px;
+  }
+  .places_subtitle {
+    font-size: 16px;
+  }
+}
+
+/* Mountains */
+.mountains {
+  min-height: 816px;
+  background: url(/images/mountains/mountains_bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.mountains_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.mountains_inner_left {
+  width: 47%;
+  height: auto;
+}
+.mountains_inner_left_img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.mountains_inner_left_sticker {
+  position: absolute;
+  top: 35%;
+  left: -5%;
+}
+
+.mountains_img {
+  width: 100%;
+  height: auto;
+}
+
+.mountains_inner_right {
+  width: 50%;
+  height: auto;
+}
+.mountains_inner_right_img {
+  max-width: 418px;
+}
+
+.mountains_inner_right_text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 78px;
+  /* max-width: 600px; */
+}
+.mountains_inner_right_title {
+  max-width: 236px;
+  font-size: 36.5px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.37;
+  letter-spacing: -0.91px;
+  text-decoration: underline;
+}
+.mountains_inner_right_subtitle {
+  max-width: 317px;
+  /* margin: 2px 0 58px 46px; */
+  font-family: Lato;
+  font-size: 16.5px;
+  line-height: normal;
+  letter-spacing: -0.41px;
+  text-align: justify;
+  color: #232323;
+}
+
+.arrow {
+  cursor: pointer;
+  position: relative;
+  width: 145px;
+  height: 57px;
+  margin-top: 44px;
+  float: right;
+}
+.arrow div {
+  position: relative;
+  top: 27px;
+  width: 140px;
+  height: 3px;
+  background-color: #232323;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  left: 0;
+  display: block;
+  transition: 0.3s;
+}
+.arrow div::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  top: -13px;
+  right: -8px;
+  background-color: #232323;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+.arrow div::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  top: 13px;
+  right: -8px;
+  background-color: #232323;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transform: rotate(-45deg);
+  transition: 0.3s;
+}
+.arrow:hover {
+  animation: arrow 1s linear infinite;
+}
+
+.arrow:hover div {
+  background-color: #8b8b8b;
+}
+
+.arrow:hover div::before {
+  background-color: #8b8b8b;
+}
+
+.arrow:hover div::after {
+  background-color: #8b8b8b;
+}
+
+@keyframes arrow {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mountains {
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+  .mountains_inner_right_text {
+    display: block;
+    margin-top: 30px;
+  }
+  .mountains_inner_right_title {
+    max-width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .mountains_inner_right_subtitle {
+    max-width: 100%;
+    font-size: 16.5px;
+  }
+  .arrow {
+    float: none;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .mountains_inner {
+    display: block;
+  }
+  .mountains_inner_left {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .mountains_inner_left_sticker {
+    display: none;
+  }
+
+  .mountains_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mountains_inner_right {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .mountains_inner_right_img {
+    margin: 0 auto;
+    /* max-width: 100%; */
+  }
+  .mountains_inner_right_title {
+    max-width: 100%;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .mountains_inner_right_subtitle {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .arrow {
+    width: 105px;
+    height: 57px;
+  }
+  .arrow div {
+    width: 100px;
+    height: 3px;
+  }
+  .arrow div::before {
+    width: 30px;
+    height: 3px;
+    top: -10px;
+    right: -5px;
+  }
+  .arrow div::after {
+    width: 30px;
+    height: 3px;
+    top: 10px;
+    right: -5px;
+  }
+}
+@media (max-width: 425px) {
+}
