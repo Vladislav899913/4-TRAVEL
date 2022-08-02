@@ -62,7 +62,7 @@ body {
 
 /* Header */
 .header {
-  background: url(/images/intro/intro_bg.jpg) center no-repeat;
+  background: url(images/intro/intro_bg.jpg) center no-repeat;
   background-size: cover;
   width: 100vw;
   min-height: 100vh;
@@ -271,7 +271,7 @@ body {
 
 /* Memory */
 .memory {
-  background: url(/images/memory/memory_bg.jpg) center no-repeat;
+  background: url(images/memory/memory_bg.jpg) center no-repeat;
   background-size: cover;
   min-height: 387px;
   display: flex;
@@ -342,7 +342,7 @@ body {
 /* Cards */
 .cards {
   min-height: 826px;
-  background: url(/images/cards/cards_bg.jpg) center no-repeat;
+  background: url(images/cards/cards_bg.jpg) center no-repeat;
   background-size: cover;
   padding-top: 165px;
 }
@@ -425,7 +425,7 @@ body {
 
 /* Places */
 .places {
-  background: url(/images/places/places_bg.jpg) center no-repeat;
+  background: url(images/places/places_bg.jpg) center no-repeat;
   background-size: cover;
   min-height: 911px;
   padding-top: 188px;
@@ -457,7 +457,7 @@ body {
 @media (max-width: 1024px) {
   /* Places */
   .places {
-    background: url(/images/places/places_bg.jpg) center no-repeat;
+    background: url(images/places/places_bg.jpg) center no-repeat;
     min-height: auto;
     padding: 50px 0;
   }
@@ -492,7 +492,7 @@ body {
 /* Mountains */
 .mountains {
   min-height: 816px;
-  background: url(/images/mountains/mountains_bg.jpg) center no-repeat;
+  background: url(images/mountains/mountains_bg.jpg) center no-repeat;
   background-size: cover;
 }
 .mountains_inner {
@@ -710,7 +710,7 @@ body {
 
 /* Choose */
 .choose {
-  background: url(/images/choose/choose_bg.jpg) center no-repeat;
+  background: url(images/choose/choose_bg.jpg) center no-repeat;
   background-size: cover;
   min-height: 872px;
   padding-top: 155px;
@@ -843,7 +843,7 @@ body {
 
 /* Info */
 .info {
-  background: url(/images/info/info_bg.jpg) center no-repeat;
+  background: url(images/info/info_bg.jpg) center no-repeat;
   background-size: cover;
   min-height: 868px;
   padding-top: 176px;
@@ -1026,7 +1026,7 @@ body {
 
 /* Reviews */
 .reviews {
-  background: url(/images/reviews/reviews_bg.jpg) center no-repeat;
+  background: url(images/reviews/reviews_bg.jpg) center no-repeat;
   background-size: cover;
   min-height: 925px;
   padding-top: 50px;
@@ -1178,7 +1178,7 @@ body {
 
 /* Communication */
 .communication {
-  background: url(/images/communication/communication_bg.jpg) center no-repeat;
+  background: url(images/communication/communication_bg.jpg) center no-repeat;
   background-size: cover;
   padding-top: 100px;
   min-height: 1001px;
@@ -1272,7 +1272,7 @@ body {
 
 /* Footer */
 .footer {
-  background: url(/images/footer/footer_bg.jpg) center no-repeat;
+  background: url(images/footer/footer_bg.jpg) center no-repeat;
   background-size: cover;
   min-height: 575px;
   padding-top: 118px;
