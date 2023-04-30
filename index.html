@@ -15,7 +15,7 @@
         />
         <link rel="icon" href="images/common/icon.png" />
     </head>
-    <body id="body">
+    <body>
         <header class="header">
             <div class="container">
                 <div class="header_inner">
@@ -340,73 +340,97 @@
                         <h2 class="title_title reviews_title">
                             Here’s what they have to say...
                         </h2>
-                        <div class="reviews_inner_items">
-                            <a href="#" class="arrow_left">
-                                <img
-                                    src="images/reviews/arrow_left.png"
-                                    alt="Иконка слайдера влево"
-                                />
-                            </a>
-                            <div class="reviews_inner_item">
-                                <img
-                                    class="reviews_item_avatar"
-                                    src="images/reviews/avatar.png"
-                                    alt="Аватар клиента"
-                                />
-                                <div class="reviews_item_text">
-                                    <h6 class="reviews_text_title">
-                                        Customer Name
-                                    </h6>
-                                    <p class="reviews_text_description">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do ei usmod tempor
-                                        incid idunt ut labore et dolore magna
-                                        aliqua.
-                                    </p>
+                        <div class="reviews_inner_slider">
+                            <div class="reviews_slider_slider">
+                                <a
+                                    class="reviews_slider_previous"
+                                    onclick="plusSlides(-1)"
+                                >
+                                    <img
+                                        draggable="false"
+                                        src="images/reviews/icon_previous.png"
+                                        alt="Слайдер влево"
+                                    />
+                                </a>
+                                <div class="reviews_slider_item">
+                                    <img
+                                        class="reviews_item_avatar"
+                                        src="images/reviews/avatar.png"
+                                        alt="Аватар клиента"
+                                    />
+                                    <div class="reviews_item_text">
+                                        <h6 class="reviews_text_title">
+                                            Customer Name
+                                        </h6>
+                                        <p class="reviews_text_description">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit, sed do
+                                            ei usmod tempor incid idunt ut
+                                            labore et dolore magna aliqua.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="reviews_inner_item">
-                                <img
-                                    class="reviews_item_avatar"
-                                    src="images/reviews/avatar.png"
-                                    alt="Аватар клиента"
-                                />
-                                <div class="reviews_item_text">
-                                    <h6 class="reviews_text_title">
-                                        Customer Name
-                                    </h6>
-                                    <p class="reviews_text_description">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do ei usmod tempor
-                                        incid idunt ut labore et dolore magna
-                                        aliqua.
-                                    </p>
+                                <div class="reviews_slider_item">
+                                    <img
+                                        class="reviews_item_avatar"
+                                        src="images/reviews/avatar.png"
+                                        alt="Аватар клиента"
+                                    />
+                                    <div class="reviews_item_text">
+                                        <h6 class="reviews_text_title">
+                                            Customer Name
+                                        </h6>
+                                        <p class="reviews_text_description">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit, sed do
+                                            ei usmod tempor incid idunt ut
+                                            labore et dolore magna aliqua.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="reviews_inner_item">
-                                <img
-                                    class="reviews_item_avatar"
-                                    src="images/reviews/avatar.png"
-                                    alt="Аватар клиента"
-                                />
-                                <div class="reviews_item_text">
-                                    <h6 class="reviews_text_title">
-                                        Customer Name
-                                    </h6>
-                                    <p class="reviews_text_description">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do ei usmod tempor
-                                        incid idunt ut labore et dolore magna
-                                        aliqua.
-                                    </p>
+                                <div class="reviews_slider_item">
+                                    <img
+                                        class="reviews_item_avatar"
+                                        src="images/reviews/avatar.png"
+                                        alt="Аватар клиента"
+                                    />
+                                    <div class="reviews_item_text">
+                                        <h6 class="reviews_text_title">
+                                            Customer Name
+                                        </h6>
+                                        <p class="reviews_text_description">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit, sed do
+                                            ei usmod tempor incid idunt ut
+                                            labore et dolore magna aliqua.
+                                        </p>
+                                    </div>
                                 </div>
+                                <a
+                                    class="reviews_slider_next"
+                                    onclick="plusSlides(1)"
+                                >
+                                    <img
+                                        draggable="false"
+                                        src="images/reviews/icon_next.png"
+                                        alt="Слайдер вправо"
+                                    />
+                                </a>
                             </div>
-                            <a href="#" class="arrow_right">
-                                <img
-                                    src="images/reviews/arrow_right.png"
-                                    alt="Иконка слайдера вправо"
-                                />
-                            </a>
+                            <div class="reviews_slider_dots">
+                                <span
+                                    class="reviews_dots_dot"
+                                    onclick="currentSlide(1)"
+                                ></span>
+                                <span
+                                    class="reviews_dots_dot"
+                                    onclick="currentSlide(2)"
+                                ></span>
+                                <span
+                                    class="reviews_dots_dot"
+                                    onclick="currentSlide(3)"
+                                ></span>
+                            </div>
                         </div>
                     </div>
                 </div>
